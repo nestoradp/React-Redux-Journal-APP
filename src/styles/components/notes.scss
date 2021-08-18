@@ -1,0 +1,66 @@
+.notes__main-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
+
+.notes__appBar{
+  align-items: center;
+  background-color: $primary;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+
+
+}
+
+
+.notes__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+
+
+}
+
+
+.notes__titles_input, .notes__textArea{
+   border: none;
+  &:focus{
+    outline: none;
+  }
+
+}
+
+.notes__titles_input{
+  color: $dark-gery;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+
+
+}
+
+.notes__textArea{
+  border: none;
+  color: $dark-gery;
+  font-size: 20px;
+  flex: 1 1 auto;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+
+
+.notes_image{
+  height: 150px;
+  display: flex;
+ justify-content: center;
+  padding-bottom: 5px;
+
+
+}
